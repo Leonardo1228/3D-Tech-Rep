@@ -2634,6 +2634,7 @@ GameObject:
   - component: {fileID: 1141134861}
   - component: {fileID: 1141134860}
   - component: {fileID: 1141134863}
+  - component: {fileID: 1141134864}
   m_Layer: 0
   m_Name: ImageTarget
   m_TagString: Untagged
@@ -2735,7 +2736,7 @@ MonoBehaviour:
   mMotionHint: 1
   mTrackingOptimization: 0
   mTrackingOptimizationNeedsUpgrade: 0
-  mPreview: {fileID: 1141134863}
+  mPreview: {fileID: 1141134864}
 --- !u!4 &1141134862
 Transform:
   m_ObjectHideFlags: 0
@@ -2753,6 +2754,19 @@ Transform:
   m_Father: {fileID: 0}
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
 --- !u!114 &1141134863
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1141134858}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 5bfcf0a8ab06f1443bcd580c8a966621, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: Assembly-CSharp::MultiTarget
+  startModel: {fileID: 1313029965}
+--- !u!114 &1141134864
 MonoBehaviour:
   m_ObjectHideFlags: 0
   m_CorrespondingSourceObject: {fileID: 0}
